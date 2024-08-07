@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- HEADER -->
-     <header class="header">
+<header class="header">
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__logo"><img src="./img/logo.png" alt="GGEZ">
@@ -25,14 +25,19 @@
                         <li><a href="./contacts.html">Conctact</a></li>
                     </ul>
                 </nav>
+                <div class="toggle__menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
-     </header>
+    </header>
     <!-- CONTACTS -->
     <section class="contactPage">
       <div class="container">
         <div class="contactPage__title">
-          <h1>Contact Us</h1>
+          <h1>Contact</h1>
         </div>
         <div class="contactPage__wrapper">
           <div class="contactPage__info">
@@ -86,6 +91,10 @@
             </div>
         </div>
      </footer>
-
+     <script src="./js/toggle__menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

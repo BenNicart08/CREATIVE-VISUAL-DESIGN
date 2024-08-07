@@ -960,7 +960,20 @@ grid-template-columns: 1fr 1fr;
  color: var(--clr-light);
 }
 
+/* CONTACTS RESPONSIVE */
+@media screen and (max-width: 520px) {
+  .contactPage__wrapper {
+    grid-template-columns: 1fr;
+  }
+  .contactPage__Form {
+  margin-bottom: 3rem;
+  padding: 10px 20px;
+  max-width: 60%;
+  text-align: justify;
+  padding-top: 10girem;
 
+  }
+}
 
 
 /* ASSETS */
